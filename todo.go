@@ -6,7 +6,7 @@ type TodoList struct {
 	Id          int    `json:"id" db:"id"`
 	Title       string `json:"title" db:"title" binding:"required"`
 	Description string `json:"description" db:"description"`
-}
+} // @name todo.TodoList
 
 type UsersList struct {
 	Id     int
@@ -19,7 +19,7 @@ type TodoItem struct {
 	Title       string `json:"title" db:"title" binding:"required"`
 	Description string `json:"description" db:"description"`
 	Done        bool   `json:"done" db:"done"`
-}
+} // @name todo.TodoItem
 
 type ListItem struct {
 	Id     int
