@@ -8,6 +8,7 @@
 __debug_*
 
 cover.out
+.database
 
 docker-compose.override.yml
 
